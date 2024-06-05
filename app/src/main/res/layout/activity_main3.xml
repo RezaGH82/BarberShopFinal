@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FF211F20"
+    tools:context=".MainActivity3">
+
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="388dp"
+        android:layout_height="262dp"
+        android:importantForAccessibility="no"
+        app:srcCompat="@drawable/mashin2"
+        tools:ignore="MissingConstraints,VisualLintBounds"
+        tools:layout_editor_absoluteX="23dp"
+        tools:layout_editor_absoluteY="0dp" />
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/lottieAnimationView"
+        android:layout_width="282dp"
+        android:layout_height="217dp"
+        android:layout_marginTop="96dp"
+        android:layout_marginEnd="204dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:lottie_autoPlay="true"
+        app:lottie_fileName="feri.json"
+        app:lottie_loop="true"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="295dp"
+        android:layout_height="35dp"
+        android:text="برای چه کاری نوبت میخواهید ؟"
+        android:textColor="#FFFFFF"
+        android:textSize="25dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.862"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.352" />
+
+    <CheckBox
+        android:id="@+id/checkBoxpuksazi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/shape3"
+        android:text="  پاکسازی "
+        android:textColor="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.179"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.423"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <CheckBox
+        android:id="@+id/checkBoxferkardan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/shape3"
+        android:text="  فر کردن "
+        android:textColor="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.423"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <CheckBox
+        android:id="@+id/checkBoxkotahi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/shape3"
+        android:text="  کوتاهی "
+        android:textColor="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.802"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.423"
+        tools:ignore="TouchTargetSizeCheck" />
+
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="295dp"
+        android:layout_height="35dp"
+        android:text="توی چه تاریخی راحت ترید ؟"
+        android:textColor="#FFFFFF"
+        android:textSize="25dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.862"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.488" />
+
+    <CheckBox
+        android:id="@+id/checkBox1001"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/shape3"
+        android:text="10/01  "
+        android:textColor="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.799"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.56"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <CheckBox
+        android:id="@+id/checkBox1002"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/shape3"
+        android:text="10/02  "
+        android:textColor="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.508"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.56"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <CheckBox
+        android:id="@+id/checkBox1003"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/shape3"
+        android:text="10/03  "
+        android:textColor="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.194"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.56"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="295dp"
+        android:layout_height="35dp"
+        android:text="نام و شماره تماس جهت هماهنگی"
+        android:textColor="#FFFFFF"
+        android:textSize="25dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.862"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.629" />
+
+    <EditText
+        android:id="@+id/editTextTextname"
+        android:layout_width="215dp"
+        android:layout_height="36dp"
+        android:background="@drawable/shape3"
+        android:ems="10"
+        android:hint="نام و نام خانوادگی"
+        android:inputType="text"
+        android:paddingRight="15dp"
+        android:textColor="#000"
+        android:textColorHint="#3A3A3A"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.78"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.709"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <EditText
+        android:id="@+id/editTextNumbershomare"
+        android:layout_width="215dp"
+        android:layout_height="36dp"
+        android:background="@drawable/shape3"
+        android:ems="10"
+        android:hint="شماره تماس"
+        android:inputType="number"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:textColor="#000"
+        android:textColorHint="#3A3A3A"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.78"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.776"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <CheckBox
+        android:id="@+id/checkBoxtaied"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="24dp"
+        android:layout_marginBottom="96dp"
+        android:outlineAmbientShadowColor="#fff"
+        android:shadowColor="#fff"
+        android:text="تایید اطلاعات"
+        android:textColor="#FFFFFF"
+        android:textSize="25dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <Button
+        android:id="@+id/buttonsave"
+        android:layout_width="236dp"
+        android:layout_height="55dp"
+        android:layout_marginBottom="24dp"
+        android:background="@drawable/shape1"
+        android:text="ثبت اطلاعات"
+        android:enabled="false"
+        android:textSize="28dp"
+        android:textColor="#000"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
